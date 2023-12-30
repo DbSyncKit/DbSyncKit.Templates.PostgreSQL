@@ -21,18 +21,18 @@
   </PropertyGroup>
 
    <ItemGroup>
-    <None Include="LICENSE.txt">
+    <None Include="..\LICENSE.txt">
       <Pack>True</Pack>
       <PackagePath>\</PackagePath>
     </None>
-    <None Include="README.md">
+    <None Include="..\README.md">
       <Pack>True</Pack>
       <PackagePath>\</PackagePath>
     </None>
   </ItemGroup>
 
    <ItemGroup>
-     <ProjectReference Include="..\DbSyncKit.Templates\DbSyncKit.Templates.csproj" />
+     <ProjectReference Include="..\..\DbSyncKit.Templates\src\DbSyncKit.Templates.csproj" />
    </ItemGroup>
 
 </Project>
